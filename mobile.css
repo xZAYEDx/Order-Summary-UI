@@ -1,0 +1,90 @@
+/* Media Queries */ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .short-text { 
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        left: 38px;
+        font-weight: 600;
+        line-height: 0.6cm;
+        padding-bottom: 0.7em;
+    }
+    .full-text {
+         display: none; 
+        }
+
+    body {
+        background-image: url("pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+   .man{
+       background-size: 310px;
+   }
+   img{
+       height: -250px;
+   }
+    .box div {
+        width: 310px;
+        height: 515px;
+        top: -220px;
+        font-family: 'Red Hat Display';
+    }
+
+    .box div > p{
+        font-size: 0.85rem;
+        /*flex: 10 50 100%;*/
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    .order {
+        font-size: 1.3em;
+    }
+
+    .music {
+        margin-left: auto;
+        margin-right: auto;
+        top: 190px;
+    }
+
+    .music img {
+        width: 42px;
+        height: 42px;
+        left: 15px;
+        position: absolute;
+        }
+
+    button {
+        padding: 13px;
+        font-size: 14px;
+        /*margin-left: -13px;*/
+        left: 25px;
+        bottom: 65px;
+        width: 260px;
+    }
+
+    span {
+        margin-left: -20px;
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+
+    span p {
+        font-weight: bolder;
+        font-size: 14px;
+        top: 190px;
+    }
+  }
+  
+  

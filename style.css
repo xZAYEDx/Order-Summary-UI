@@ -12,6 +12,10 @@ body{
     background-color: hsl(225, 100%, 94%);
 }
 
+.short-text { 
+    display: none; 
+}
+
 .box {
 display: flex;
 align-items: center;
@@ -37,9 +41,12 @@ background-repeat: no-repeat;
 
 h2 , p {
 position: relative;
+display: block;
 text-align: center;
 top: 180px;
 font-family: 'Red Hat Display';
+white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 h2{
@@ -49,19 +56,28 @@ font-style: bold;
 
 }
 
+.order {
+    font-size:large;
+}
+
 p {
 font-size: 12px;
 margin-top: 15px;
 font-weight: 500;
 color: hsl(224, 23%, 55%);
-line-height: 20px;
+line-height: 18px;
+}
+
+.full-text {
+    font-size: 0.75em;
 }
 
 .music {
 background-color: #f5f7ff;
-top: 190px;
+top: 195px;
 position: relative;
-margin-left: 35px;
+margin-left: 30px;
+padding: 5px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -69,22 +85,23 @@ height: 65px;
 width: 260px;
 border-radius: 8px;
 }
+
 .music img {
-width: 34px;
-height: 34px;
+width: 38px;
+height: 38px;
 left: 20px;
 position: absolute;
 }
 
 .music h2  {
 position: absolute;
-top: 15px;
-left: 70px;
+top: 20px;
+left: 74px;
 font-size: small;
 }
 .music p {
 top: 3px;
-left: -22px;
+left: -24px;
 font-size: small;
 }
 
@@ -99,12 +116,12 @@ font-weight: 600;
 button {
 background-color: hsl(245, 75%, 52%);
 position: absolute;
-left: 40px;
+left: 30px;
 bottom: 80px;
 border: none;
 color: white;
 padding: 10px;
-width: 246px;
+width: 268px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
@@ -135,3 +152,4 @@ color: black;
 text-decoration: none;
 color: rgba(56, 41, 224,0.7);
 }
+
